@@ -36,7 +36,7 @@ student_scores = {
 
 # TODO-1: Created an empty dictionary called student_grades.
 student_grades = {}
-# TODO-2: Wrote your code below to add the grades to student_grades.
+# TODO-2: code below to add the grades to student_grades.
 
 for name in student_scores:
   student_grades[name] = student_scores[name]
@@ -51,8 +51,6 @@ for mark in student_grades:
     if student_scores[mark] < 70:
         student_grades[mark] = "Fail"
 
-  
-# 🚨 Don't change the code below 👇
 print(student_grades)
 
 
